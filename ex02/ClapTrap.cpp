@@ -6,7 +6,7 @@
 /*   By: atamas <atamas@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/19 18:34:59 by atamas            #+#    #+#             */
-/*   Updated: 2024/12/19 21:14:48 by atamas           ###   ########.fr       */
+/*   Updated: 2025/01/30 21:09:28 by atamas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ ClapTrap &ClapTrap::operator = (const ClapTrap &original)
 
 ClapTrap::~ClapTrap()
 {
-	std::cout << "Deconstructor called\n";
+	std::cout << "Destructor called\n";
 }
 
 void ClapTrap::attack(const std::string& target)
@@ -87,7 +87,7 @@ void ClapTrap::beRepaired(unsigned int amount)
 	else
 	{
 		m_energyPoints--;
-		std::cout << "ClapTrap repaired itself gaining " << amount << " of HP";
+		std::cout << "ClapTrap repaired itself gaining " << amount << " of HP\n";
 		m_hitPoints += amount;
 	}
 }

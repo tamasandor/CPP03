@@ -6,7 +6,7 @@
 /*   By: atamas <atamas@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 14:55:36 by atamas            #+#    #+#             */
-/*   Updated: 2024/12/20 15:14:36 by atamas           ###   ########.fr       */
+/*   Updated: 2025/01/30 21:08:48 by atamas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,5 +57,5 @@ void	FragTrap::highFivesGuys(void)
 
 FragTrap::~FragTrap()
 {
-	std::cout << "FragTrap deconstructor called!\n";
+	std::cout << "FragTrap destructor called!\n";
 }
