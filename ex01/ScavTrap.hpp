@@ -6,7 +6,7 @@
 /*   By: atamas <atamas@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/19 21:53:04 by atamas            #+#    #+#             */
-/*   Updated: 2024/12/20 14:36:38 by atamas           ###   ########.fr       */
+/*   Updated: 2025/02/03 17:53:23 by atamas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ public:
 	ScavTrap& operator=(const ScavTrap& original);
 	~ScavTrap();
 	void	guardGate();
+	void	attack(const std::string& target);
+
 };
 
 #endif
